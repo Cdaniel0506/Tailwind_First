@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.barProgress {
+  @apply cursor-pointer rounded-md relative hover:opacity-80
+}
+
+.bar__text {
+  @apply bg-dark-brown text-white absolute p-1 text-sm rounded-md left-1/2 -translate-x-1/2 -top-8 invisible group-hover:visible
+}
